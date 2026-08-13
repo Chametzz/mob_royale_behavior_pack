@@ -22,6 +22,10 @@ MobRoyaleCard.values.forEach((item) => {
           value: `[${item.cost}] ${item.name}`,
         },
         "minecraft:max_stack_size": 1,
+        "minecraft:use_animation": "none",
+        "minecraft:use_modifiers": {
+          use_duration: 0.0,
+        },
       },
     },
   };
